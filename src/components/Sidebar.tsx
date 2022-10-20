@@ -3,7 +3,7 @@ import { ArrowIcon, PencilIcon, ShapeIcon, TextIcon } from "./Icons";
 
 export const Sidebar = () => {
   return (
-    <div className="flex h-[250px] w-[50px] flex-col items-center justify-between rounded-lg bg-white shadow-md">
+    <div className="absolute left-[20px] flex h-[250px] w-[50px] flex-col items-center justify-between rounded-lg bg-white shadow-md">
       <IconBtn children={<PencilIcon />} />
       <IconBtn children={<ArrowIcon />} />
       <IconBtn children={<TextIcon />} />
